@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/bg_login_portrait"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     tools:context=".SignUp">
+
+
+
+
+
+
+        <EditText
+
+            android:inputType="textWebEmailAddress"
+            android:id="@+id/edittxtmail"
+            android:textColorHint="@color/White"
+            android:layout_marginTop="250dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/outline_person_white_18dp"
+            android:hint="   Enter your Email" />
+
+        <EditText
+            android:inputType="textWebPassword"
+            android:id="@+id/edittxtpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/White"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/outline_lock_white_18dp"
+            android:hint="   Enter your password" />
+
+
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_marginTop="8mm"
+            android:layout_gravity="center_horizontal"
+            android:text="Click to Procced"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+
+
+
+    <TextView
+            android:id="@+id/view1"
+
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:textColor="@color/White"
+            android:fontFamily="sans-serif-light"
+            android:text="Already a user ? Sign in here"
+            />
+
+    </LinearLayout>
