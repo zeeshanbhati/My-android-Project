@@ -3,8 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar"
     android:orientation="vertical"
-    android:background="@drawable/galaxy"
+    android:background="@drawable/bg_login"
     android:layout_height="match_parent"
     android:paddingRight="18dp"
     android:paddingLeft="18dp"
@@ -12,8 +13,8 @@
 
 
     <ImageView
-        android:layout_width="192dp"
-        android:layout_height="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="172dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
         android:src="@drawable/app_logo" />
@@ -51,21 +52,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sign in"
-        android:textSize="12dp"
+        android:textSize="13dp"
+        android:textColor="@color/White"
         />
 
 
     <TextView
+        android:id="@+id/textviewsignin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
         android:layout_gravity="center_horizontal"
-        android:text="Create an account"
-        android:textSize="4mm"
-        android:textColor="@android:color/white"
-        android:textStyle="bold"
+        android:layout_marginTop="50dp"
         android:fontFamily="@string/common_open_on_phone"
-        android:id="@+id/textviewsignin"/>
+        android:text="Create an account"
+        android:textColor="@android:color/white"
+        android:textSize="4mm"
+        android:textStyle="bold" />
 
 
 
@@ -73,7 +75,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="30dp"
         android:id="@+id/googlebtn"
         >
 

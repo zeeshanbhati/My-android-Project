@@ -56,7 +56,7 @@ public class SignUp extends AppCompatActivity implements View.OnClickListener {
             Toast.makeText(this, "Incorrect Password", Toast.LENGTH_SHORT).show();
             return;
         }
-        progress.setMessage("Registaring User");
+        progress.setMessage("Registering User");
         progress.show();
         firebaseAuth.createUserWithEmailAndPassword(email, pword)
                 .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {

@@ -3,7 +3,7 @@
      xmlns:app="http://schemas.android.com/apk/res-auto"
      xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    android:background="@drawable/bg_login_portrait"
+    android:background="@drawable/sign_up_bg"
     android:paddingLeft="18dp"
     android:paddingRight="18dp"
 
@@ -21,6 +21,7 @@
             android:inputType="textWebEmailAddress"
             android:id="@+id/edittxtmail"
             android:textColorHint="@color/White"
+            android:textColor="@color/White"
             android:layout_marginTop="250dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -29,6 +30,7 @@
 
         <EditText
             android:inputType="textWebPassword"
+            android:textColor="@color/White"
             android:id="@+id/edittxtpassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
