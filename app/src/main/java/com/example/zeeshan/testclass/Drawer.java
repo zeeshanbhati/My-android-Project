@@ -80,19 +80,21 @@ public class Drawer extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+               // Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+               //         .setAction("Action", null).show();
                fab1.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Toast.makeText(Drawer.this, "Action button 1", Toast.LENGTH_SHORT).show();
+                      // Toast.makeText(Drawer.this, "Action button 1", Toast.LENGTH_SHORT).show();
+                        callActivity1();
+
                     }
                 });
 
                 fab2.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Toast.makeText(Drawer.this, "Action button 1", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(Drawer.this, "Action button 2", Toast.LENGTH_SHORT).show();
                     }
                 });
             }
@@ -149,6 +151,7 @@ public class Drawer extends AppCompatActivity
         } else if (id == R.id.nav_gallery) {
 
         } else if (id == R.id.nav_slideshow) {
+            startActivity(new Intent(this,RoomNoRetrive.class));
 
         } else if (id == R.id.nav_tools) {
 
@@ -184,6 +187,10 @@ public class Drawer extends AppCompatActivity
 
                     }
                 });
+    }
+
+    private void callActivity1(){
+        startActivity( new Intent(this,SendRoomNo.class));
     }
 
     //Part 3 code has end

@@ -25,15 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-     <!-->   <android.support.design.widget.FloatingActionButton
-            android:id="@+id/fab"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentEnd="true"
-            android:layout_margin="@dimen/fab_margin"
-            android:backgroundTint="@color/colorPrimary"
-            app:srcCompat="@android:drawable/ic_input_add" /><!-->
+
 
         <com.getbase.floatingactionbutton.FloatingActionsMenu
             android:id="@+id/fab"
@@ -51,7 +43,7 @@
                 app:fab_icon="@drawable/ic_add_location_black_24dp"
                 android:id="@+id/fab_action1"
                 app:fab_size="mini"
-                app:fab_title="Action 1"
+                app:fab_title="New Location"
                 />
 
             <com.getbase.floatingactionbutton.FloatingActionButton
@@ -61,7 +53,7 @@
                 app:fab_icon="@drawable/ic_delete_black_24dp"
                 android:id="@+id/fab_action2"
                 app:fab_size="mini"
-                app:fab_title="Action 2"
+                app:fab_title="Delete"
                 />
 
 
