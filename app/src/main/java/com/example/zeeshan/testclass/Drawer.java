@@ -85,7 +85,7 @@ public class Drawer extends AppCompatActivity
                fab1.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                      // Toast.makeText(Drawer.this, "Action button 1", Toast.LENGTH_SHORT).show();
+                       Toast.makeText(Drawer.this, "Action button 1", Toast.LENGTH_SHORT).show();
                         callActivity1();
 
                     }
